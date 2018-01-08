@@ -1,0 +1,258 @@
+body {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+    background: black;
+    font:white;
+
+}
+
+@font-face {
+    font-family: headerfont;
+    src: url('../fonts/Lobster_1.3.otf');
+}
+
+
+header {
+    font-weight: bold;
+    background: black;
+    font:white;
+
+    
+}
+
+
+.logo {
+    float: right;
+    margin-right: 10px;
+    font: white;
+}
+
+    .headerlogo > img {
+        height: 60px;
+        width: 60px;
+    }
+
+
+nav {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+    background: black;
+}
+
+    nav ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+        nav ul li {
+            display: block;
+        }
+
+.backgroundgradient {
+    background: -webkit-linear-gradient(left, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, black);
+}
+
+
+.navlink {
+    height: 35px;
+    margin-right: 10px;
+    font-size: 18px;
+    float: left;
+    padding-top: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+    .navlink.active {
+    }
+
+#welcomeimage {
+    float: left;
+    width: 700px;
+    height: 800px;
+}
+
+
+
+#welcometext {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: gray;
+    font:white;
+
+}
+
+    #welcometext > header {
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 3px;
+        font: white;
+    
+    }
+
+#events {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    #events > header {
+        margin-left: 10px;
+        color: black;
+        font-size: 15px;
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+
+    #events > ul {
+        list-style: none;
+    }
+
+        #events > ul > li {
+            margin-bottom: 3px;
+        }
+
+#bestsellers {
+    height: 100%;
+    width: 1000px;
+    float: left;
+    margin-bottom: 20px;
+    font:white
+}
+
+    #bestsellers > header {
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        font: white;
+    }
+
+
+
+
+
+    .accessoriesbestsellers > header {
+        height: 30px;
+        line-height: 30px;
+        background-color: black;
+        font: white;
+        padding-left: 10px;
+    }
+
+.productarticle {
+    width: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.productarticle1 {
+    width: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.productarticlethumbnail {
+    width: 120px;
+    height: 104px;
+}
+.productarticlethumbnail1 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    float: left
+}
+.productarticlename {
+    font-size: 14px;
+    color: darkorange;
+   
+}
+
+.productarticle {
+    font-size: 5px;
+    color: green;
+    padding-top: 5px;
+}
+
+.productarticlemoreinfo {
+    font-size: 5px;
+    color: black;
+    margin-top: 5px;
+}
+
+.buynowbutton {
+    cursor: pointer;
+    padding: 7px 25px;
+    background: darkorange;
+    border: 1px solid orange;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+    color: white;
+    font-size: 0.8em;
+    width: 80px;
+    float:right
+}
+
+    .buynowbutton:hover, .buynowbutton:focus {
+        background-color: #512c0a;
+        -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+        -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+        box-shadow: 0 0 1px rgba(0,0,0, .75);
+    }
+
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #5c5045;
+    margin: 20px 0px 20px;
+    padding: 5px;
+
+}
+
+.smalltext {
+    font-size: 10px;
+}
+
+
+
+
+
+.productarticlecontent {
+    width:75%;
+    float: right;
+}
+
+.productarticledescription {
+    text-wrap: normal;
+}
+
+.productarticleprice {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.coffeevideoplayer {
+    width:320px;
+    height: 240px;
+}
+
